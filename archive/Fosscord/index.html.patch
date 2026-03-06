@@ -1,0 +1,22 @@
+--- assets/index.html	2022-09-02 21:36:37.113998914 -0400
++++ assets/index.html.bak	2022-08-29 16:29:45.599537232 -0400
+@@ -3,10 +3,18 @@
+ 	<head>
+ 		<meta charset="UTF-8" />
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+-		<title>Discord Test Client</title>
++		<title>N3RDP0RT4L  HQ's [FTC]</title>
+ 		<link rel="stylesheet" href="/assets/fosscord.css" />
+ 		<link id="logincss" rel="stylesheet" href="/assets/fosscord-login.css" />
+ 		<link id="customcss" rel="stylesheet" href="/assets/user.css" />
++		<link rel="stylesheet" href="/assets/fosscord.css" />
++		<!-- <meta property="og:title" content="N3RDP0RT4L HQ" /> -->
++		<meta name="description" content="N3RDP0RT4L HQ's Fosscord Instance!">
++		<meta property="og:description" content="N3RDP0RT4L HQ FTC [Fosscord Test Client]" />
++		<!-- <meta property="og:url" content="https://n3rdp0rt4l.gitlab.io/n3rdp0rt4l" /> -->
++		<meta property="og:url" content="http://n3rdp0rt4l.duckdns.org:3003/app" />
++		<link rel="icon" type="image/png" href="/assets/Finder.Red.png" />
++		<meta property="og:image" content="/assets/favicon.ico" />
+ 		<!-- inline plugin marker -->
+ 		<!-- preload plugin marker -->
+ 	</head>

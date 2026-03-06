@@ -1,0 +1,16 @@
+export DB_MIGRATE=1
+export THREADS=1
+export DB_UNSAFE=1
+export PORT=3003
+#export PORT=9999 #For Setup and Testing uncomment.
+export CDN=http://N3RDP0RT4L.duckdns.org:3003
+#export STORAGE_LOCATION=$PWD/files
+export STORAGE_LOCATION=/external_sd/fosscord.cdn/files
+export LOG_REQUESTS='-'
+export DB_VERBOSE=y
+date 2>&1 | tee -a server.log
+#npm run start:bundle >> server.log 2>&1
+npm run start:bundle 2>&1 | tee -a server.log
+
+
+

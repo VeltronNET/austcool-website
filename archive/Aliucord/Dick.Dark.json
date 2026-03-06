@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "author": "☧AugustusXVIII☧#6082",
+        "version": "1.0.0",
+        "name": "Dick.Dark"
+    },
+    "background": {},
+    "fonts": {},
+    "simple_colors": {
+        "accent": -65294,
+        "background": -16777216,
+        "statusbar": -65294,
+        "mention_highlight": -117506048,
+        "active_channel": -65294,
+        "input_background": -65294,
+        "blocked_bg": -65536,
+        "background_secondary": -16777216
+    },
+    "colors": {},
+    "drawable_tints": {},
+    "raws": {}
+}

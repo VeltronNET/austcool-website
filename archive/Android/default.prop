@@ -1,0 +1,62 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+persist.security.ams.enforcing=1
+ro.oem_unlock_supported=1
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.radio.noril=yes
+ro.carrier=wifi-only
+ro.zygote=zygote32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=quicken
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+debug.atrace.tags.enableflags=0
+ro.logdumpd.enabled=0
+persist.sys.usb.config=mtp
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Nov 15 17:53:02 KST 2018
+ro.bootimage.build.date.utc=1542271982
+ro.bootimage.build.fingerprint=samsung/gta2swifidx/gta2swifi:8.1.0/M1AJQ/T380DXU2BRK2:user/test-keys
+
+#
+# Kernel Tweaks
+#
+ro.securestorage=false
+ro.securestorage.support=false
+ro.config.tima=0
+ro.config.knox=0
+ro.securestorage.knox=false
+ro.security.mdpp.ux=disabled
+wlan.wfd.hdcp=disabled
+ro.config.hw_quickpoweron=true
+ro.config.nocheckin=1
+net.tethering.noprovisioning=true
+debug.sf.hw=1
+
+# Remove multi-users feature
+fw.max_users=5 
+
+# Hide Users from Settings
+fw.show_multiuserui=1 
+
+#custom screen width minimum
+ro.config.custom_sw_limit=754

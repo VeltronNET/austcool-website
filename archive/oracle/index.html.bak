@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- <head style="font-family:minecraft-enchantment"> -->
+
+<head style="font-family:minecraft-enchantment">
+    <link rel="stylesheet" href="bs_style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8" />
+    <!-- Meta Garbage -->
+    <meta property="og:type" content="website">
+    <title>N3RDP0RT4L HQ</title>
+    <meta property="og:title" content="N3RDP0RT4L HQ" />
+    <meta name="description" content="AugustusXVIII's Website!">
+    <meta property="og:description" content="N3RDP0RT4L HQ News!" />
+    <meta property="og:url" content="https://N3RDP0RT4L.gitlab.io/n3rdp0rt4l" />
+    <meta property="og:url" content="http://n3rdp0rt4l.duckdns.org:8080" />
+    <link rel="icon" type="image/png" href="../Finder.Red.png" />
+    <meta property="og:image" content="../Finder.Red.ico" />
+</head>
+<body>
+<style>
+p { text-align: center ;}
+</style>
+<main>
+
+<head style="font-family:minecraft-enchantment">
+
+<body style="font-family:minecraft-enchantment">
+    <center>
+<a><a href="index.html">
+        <img src="Finder.Red.png" alt="Finder.Red" width="230" height="230"></a>
+    </center>
+    <center>
+        <img src="./_N3RDP0RT4L__Banner_ForgottenInsanity.png" alt="N3RDP0R4L" width="600" height="120">
+    </center>
+    <center>
+    	<iframe src="https://N3RDP0RT4L.gitlab.io/n3rdp0rt4l/oracle/tech.md" title="Tech News & Announcements!"></iframe>
+    </center>
+    
+</body>
+
+</html>
